@@ -1,3 +1,5 @@
+Title: Fraud Detection Using Linear Regression Model
+
 The dataset comprises credit card transactions over two days, with 492 instances of fraud out of 284,807 transactions, making the dataset highly imbalanced. The positive class (frauds) represents only 0.172% of all transactions. The dataset includes numerical features resulting from PCA transformation, with 'Time' and 'Amount' being the only non-transformed features. 'Time' indicates the seconds elapsed since the first transaction, while 'Amount' denotes the transaction amount. The 'Class' feature serves as the response variable, taking a value of 1 for fraud and 0 otherwise.
 
 For data analysis and prediction, a linear regression model is employed. The model identifies highly correlated variables with the 'Class' feature and predicts the correct number of fraudulent and non-fraudulent transactions based on these correlations. This approach aims to enhance fraud detection by leveraging linear regression's predictive capabilities on the given dataset.
